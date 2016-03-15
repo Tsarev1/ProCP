@@ -9,8 +9,8 @@ namespace Traffic_Light_Simulator
         public void Save() { }
         public void Load() { }
         public void SaveAs() { }
-        public void AddCrossing(BaseCrossing crossing) { }
-        public void RemoveCrossing(BaseCrossing crossing) { }
+        public bool AddCrossing(BaseCrossing crossing) { return true; }
+        public bool RemoveCrossing(BaseCrossing crossing) { return true; }
         public void StartSimulation() { }
         public void StopSimulation() { }
     }
